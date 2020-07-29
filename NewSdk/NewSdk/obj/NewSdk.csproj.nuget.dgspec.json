@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\t-estes\\Desktop\\CsProjs\\NewSdk\\NewSdk\\NewSdk.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\t-estes\\Desktop\\CsProjs\\NewSdk\\NewSdk\\NewSdk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\t-estes\\Desktop\\CsProjs\\NewSdk\\NewSdk\\NewSdk.csproj",
+        "projectName": "NewSdk",
+        "projectPath": "C:\\Users\\t-estes\\Desktop\\CsProjs\\NewSdk\\NewSdk\\NewSdk.csproj",
+        "packagesPath": "C:\\Users\\t-estes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\t-estes\\Desktop\\CsProjs\\NewSdk\\NewSdk\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\t-estes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\t-estes\\Desktop\\NugetPkgs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn-analyzers/api/v3/index.json": {},
+          "https://pkgs.dev.azure.com/microsoft/_packaging/WinUI-Xaml-CI/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "dependencies": {
+            "Microsoft.VCRTForwarders.140": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Microsoft.WinUI": {
+              "target": "Package",
+              "version": "[3.0.0-preview2.200713.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015203\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
