@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Windows.Input;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -13,6 +17,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
 namespace OldCsProj
@@ -40,7 +45,7 @@ namespace OldCsProj
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-
+            TestAnalyzers();
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
             if (rootFrame == null)
@@ -71,6 +76,25 @@ namespace OldCsProj
                 // Ensure the current window is active
                 Window.Current.Activate();
             }
+        }
+
+        void TestAnalyzers()
+        {
+            INotifyPropertyChanged test;
+            PropertyChangedEventArgs changeArgs;
+            ICommand testCommand;
+            ObservableCollection<string> c = new ObservableCollection<string>();
+            var cornerRadius1 = new CornerRadius(2);
+            var cornerRadius2 = new CornerRadius(1,2,3,4);
+            var duration = new Duration(new TimeSpan(33));
+            var gridLength1 = new GridLength(12);
+            var gridLength2 = new GridLength(1, GridUnitType.Pixel);
+            var thickness1 = new Thickness(2);
+            var thickness2 = new Thickness(2, 3, 4, 5);
+            var generatorPosition = new GeneratorPosition(23, 123);
+            var matrix = new Matrix(6, 5, 4, 3, 2, 1);
+            var repeatBehavior1 = new RepeatBehavior(12);
+            var repeatBehavior2 = new RepeatBehavior(new TimeSpan(10));
         }
 
         /// <summary>
