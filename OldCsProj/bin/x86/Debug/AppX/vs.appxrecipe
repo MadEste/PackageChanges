@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\t-estes\Desktop\CsProjs\OldCsProj\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-11T20:50:44.315</Modified>
+      <Modified>2020-08-11T22:43:48.909</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\t-estes\Desktop\CsProjs\OldCsProj\bin\x86\Debug\OldCsProj.exe">
       <PackagePath>entrypoint\OldCsProj.exe</PackagePath>
-      <Modified>2020-08-11T20:50:43.535</Modified>
+      <Modified>2020-08-11T22:43:46.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-estes\Desktop\CsProjs\OldCsProj\bin\x86\Debug\OldCsProj.xr.xml">
       <PackagePath>OldCsProj.xr.xml</PackagePath>
-      <Modified>2020-08-11T20:25:18.901</Modified>
+      <Modified>2020-08-11T21:10:42.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-estes\Desktop\CsProjs\OldCsProj\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-11T20:50:43.366</Modified>
+      <Modified>2020-08-11T22:43:46.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-estes\Desktop\CsProjs\OldCsProj\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-11T20:50:43.366</Modified>
+      <Modified>2020-08-11T22:43:46.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +102,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-estes\Desktop\CsProjs\OldCsProj\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-11T20:25:19.569</Modified>
+      <Modified>2020-08-11T22:43:47.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-estes\Desktop\CsProjs\OldCsProj\bin\x86\Debug\Core\OldCsProj.exe">
       <PackagePath>OldCsProj.exe</PackagePath>
-      <Modified>2020-08-11T20:50:44.282</Modified>
+      <Modified>2020-08-11T22:43:47.881</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

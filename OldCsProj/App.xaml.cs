@@ -78,12 +78,51 @@ namespace OldCsProj
             }
         }
 
+        private class oldINotifyPropertyChanged : INotifyPropertyChanged
+        {
+            event PropertyChangedEventHandler INotifyPropertyChanged.PropertyChanged
+            {
+                add
+                {
+                    throw new NotImplementedException();
+                }
+
+                remove
+                {
+                    throw new NotImplementedException();
+                }
+            }
+        }
+        private class oldICommand : ICommand
+        {
+            event EventHandler ICommand.CanExecuteChanged
+            {
+                add
+                {
+                    throw new NotImplementedException();
+                }
+
+                remove
+                {
+                    throw new NotImplementedException();
+                }
+            }
+
+            bool ICommand.CanExecute(object parameter)
+            {
+                throw new NotImplementedException();
+            }
+
+            void ICommand.Execute(object parameter)
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         void TestAnalyzers()
         {
-            INotifyPropertyChanged test;
-            PropertyChangedEventArgs changeArgs;
-            ICommand testCommand;
-            ObservableCollection<string> c = new ObservableCollection<string>();
+            PropertyChangedEventArgs changeArgs = new PropertyChangedEventArgs("tstProp");
+            ObservableCollection<string> c = new ObservableCollection<string>(); //Cannot run in try-convert
             var cornerRadius1 = new CornerRadius(2);
             var cornerRadius2 = new CornerRadius(1,2,3,4);
             var duration = new Duration(new TimeSpan(33));
